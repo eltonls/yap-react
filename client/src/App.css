@@ -1,0 +1,6 @@
+.heading-secondary {
+ font-family: 'Dancing Script', cursive; 
+
+  @apply text-4xl;
+  @apply mb-10;
+}

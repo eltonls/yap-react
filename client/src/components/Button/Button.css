@@ -1,0 +1,23 @@
+.btn {
+  @apply w-full;
+
+  @apply py-2 px-5;
+
+  /* Borders */
+  @apply rounded;
+
+  /* Fonts */
+  font-family: 'Lato', sans-serif;
+
+  @apply transition-all;
+}
+
+.btn:hover {
+  @apply drop-shadow-sm -translate-y-1;
+}
+
+.btn--pink {
+  /* Colours */
+  @apply bg-paradise-pink;
+  @apply text-white;
+}

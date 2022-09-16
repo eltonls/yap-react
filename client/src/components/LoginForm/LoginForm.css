@@ -1,0 +1,37 @@
+.login-form {
+  @apply block;
+
+  @apply bg-white/50; 
+
+  /* Internal Positioning */
+  @apply flex flex-col;
+  @apply py-6 px-5;
+  @apply text-center;
+
+  /* Shadows */
+  @apply drop-shadow-md;
+
+  /* Borders */
+  @apply rounded;
+  
+  font-family: 'Lato', sans-serif;
+}
+
+.login-form__label {
+  @apply uppercase;
+}
+
+.login-form__input {
+  @apply py-2 px-5;
+  @apply bg-white/75;
+
+  @apply rounded;
+}
+
+.login-form__input:not(:last-child) {
+  @apply mb-5;
+}
+
+.login-form__input:focus-visible {
+  @apply outline-paradise-pink outline; 
+}
