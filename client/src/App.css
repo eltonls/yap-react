@@ -4,3 +4,9 @@
   @apply text-4xl;
   @apply mb-10;
 }
+
+.heading-tertiary {
+  font-family: 'Dancing Script', cursive;
+
+  @apply text-5xl capitalize text-purple-dark;
+}

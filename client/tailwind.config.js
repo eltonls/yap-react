@@ -10,6 +10,7 @@ module.exports = {
         "champagne-pink": "#FCEADE",
         "coral": "#FF8A5B",
         "paradise-pink": "#EA526F",
+        "purple-dark": "#5e466e",
       }
     },
   },

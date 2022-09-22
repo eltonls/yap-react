@@ -1,0 +1,5 @@
+.planner {
+  background-image: url("../../public/images/ohtilly-AV4AOxdJH8I-unsplash.jpg");
+  @apply bg-center bg-cover;
+  @apply py-10 px-10;
+}

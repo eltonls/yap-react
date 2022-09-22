@@ -1,0 +1,5 @@
+.month {
+  @apply w-full;
+  @apply px-5;
+  @apply grid grid-cols-7 grid-rows-4 align-bottom gap-px;   
+}

@@ -1,0 +1,33 @@
+h1 {
+  @apply text-4xl;
+}
+
+.calendar {
+  @apply rounded-sm;
+  /* @apply p-5; */
+  @apply bg-slate-50/75;
+
+  font-family: 'Poppins', sans-serif;
+}
+
+.calendar__sub-list { 
+  @apply grid grid-cols-7; 
+
+  @apply px-5;
+
+  @apply text-xl;
+
+  @apply mb-0;
+}
+
+.calendar__sub-weekday {
+  @apply p-5; 
+  @apply text-center capitalize font-bold;
+  @apply border;
+
+  @apply bg-purple-dark text-white;
+}
+
+.calendar__sub-weekday:not(:last-child) {
+  @apply border-l-gray-100;
+}

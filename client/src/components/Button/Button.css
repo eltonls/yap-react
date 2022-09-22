@@ -1,19 +1,30 @@
 .btn {
-  @apply w-full;
-
   @apply py-2 px-5;
 
   /* Borders */
   @apply rounded;
 
   /* Fonts */
-  font-family: 'Lato', sans-serif;
+  font-family: 'Poppins', sans-serif;
 
   @apply transition-all;
 }
 
 .btn:hover {
   @apply drop-shadow-sm -translate-y-1;
+}
+
+.btn--login{
+  @apply w-full;
+}
+
+.btn--purple {
+  @apply bg-purple-dark text-white; 
+
+  @apply px-14;
+  @apply rounded-3xl; 
+
+  @apply font-bold;
 }
 
 .btn--pink {

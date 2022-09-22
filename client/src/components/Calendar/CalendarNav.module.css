@@ -1,0 +1,38 @@
+.calendar-nav {
+  @apply relative;
+  @apply flex flex-row justify-between items-baseline;
+  @apply p-5 py-10 pb-0;
+
+  @apply mb-5;
+}
+
+.calendar-nav__month-tab {
+  @apply absolute top-0 right-0;
+  @apply w-full;
+
+  @apply flex flex-row justify-end; 
+
+  @apply bg-repeat-x;
+  background-image: url("../../../public/images/bg-two-colors.png");
+}
+
+.calendar-nav__menu {
+  @apply list-none; 
+  @apply flex flex-row justify-between; 
+}
+
+.calendar-nav__btn{
+  @apply transition-all;
+}
+
+.calendar-nav__btn:hover {
+  @apply -translate-y-1; 
+}
+
+.calendar-nav__link { 
+  @apply px-4 py-2 pb-1; 
+  @apply rounded-tr-2xl rounded-tl-2xl;
+  @apply mx-px my-0;
+  @apply bg-champagne-pink text-purple-dark;
+  @apply text-lg font-bold;
+}
