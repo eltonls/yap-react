@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
-const todoSchema = new Schema({ 
+const TodoSchema = new Schema({ 
       title: String,
       state: Boolean,
       date: Date,
@@ -12,4 +12,5 @@ const todoSchema = new Schema({
 // So now Todo is a class that can be used
 // to create the objects that will be passed
 // to/from the database itself
-const Todo = mongoose.model("Todo", todoSchema);
+
+module.exports = mongoose.model("Todo", TodoSchema);

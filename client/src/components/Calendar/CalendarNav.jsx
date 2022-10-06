@@ -19,9 +19,7 @@ const CalendarNav = (props) => {
             <a href="#" className={Styles["calendar-nav__link"]}>Dec</a>
           </li> 
         </ul>
-      </div>
-      <h3 className="heading-tertiary">{`${props.month} ${props.year}`}</h3> 
-      <Button mod="purple" text="To-do list" />
+      </div> 
     </div>
   )
 }

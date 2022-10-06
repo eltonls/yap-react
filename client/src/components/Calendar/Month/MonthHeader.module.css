@@ -1,0 +1,21 @@
+.month-header__list { 
+  @apply grid grid-cols-7; 
+
+  @apply px-5;
+
+  @apply text-xl;
+
+  @apply mb-0;
+}
+
+.month-header__weekday {
+  @apply p-5; 
+  @apply text-center capitalize font-bold;
+  @apply border;
+
+  @apply bg-purple-dark text-white;
+}
+
+.month-headerr__weekday:not(:last-child) {
+  @apply border-l-gray-100;
+}

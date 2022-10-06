@@ -1,0 +1,42 @@
+
+.week-header__week-list { 
+  @apply grid grid-cols-8; 
+
+  @apply px-5;
+
+  @apply text-xl;
+
+  @apply mb-0; 
+}
+
+.week-header__weekday {
+  @apply p-5; 
+  @apply text-center capitalize font-bold;
+  @apply border;
+
+  @apply bg-purple-dark text-white;
+}
+
+.week-header__weekday:not(:last-child) {
+  @apply border-l-gray-100;
+}
+
+.week-header__number-list {
+   @apply grid grid-cols-8;  
+
+  @apply px-5;
+
+  @apply text-xl;
+
+  @apply mb-0; 
+}
+
+.week-header__day-num {
+    @apply px-4 py-2;  
+    @apply p-1;
+    @apply text-center;
+
+    @apply border-purple-dark border;
+
+    @apply transition-all;
+}
