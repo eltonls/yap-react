@@ -6,6 +6,8 @@ h1 {
   @apply rounded-sm;
   /* @apply p-5; */
   @apply bg-slate-50/75;
+  @apply max-h-screen; 
+  @apply overflow-hidden; 
 
   font-family: 'Poppins', sans-serif;
 }

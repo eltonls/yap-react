@@ -1,0 +1,11 @@
+.hours {
+    
+}
+
+.hours__block{ 
+  @apply p-1;
+
+  @apply border-purple-dark border;
+
+  @apply transition-all;
+}

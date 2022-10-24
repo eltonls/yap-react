@@ -1,0 +1,22 @@
+.week {
+  @apply overflow-scroll;  
+  @apply w-full h-full;
+  @apply break-words;
+}
+
+.week__days {
+  @apply grid grid-cols-8; 
+
+  @apply px-5;
+
+  @apply text-xl;
+
+  @apply mb-0;
+
+  @apply overflow-scroll;
+  @apply break-words;
+}
+
+.week__day {
+  @apply h-full;
+}
